@@ -2,14 +2,7 @@
 name: Package executable with Pyinstaller - Windows
 
 # Controls when the workflow will run
-on:
-  push:
-    - 'main'
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-    inputs:
-      tags:
-        description: 'Build tags'
+on: push
         
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
